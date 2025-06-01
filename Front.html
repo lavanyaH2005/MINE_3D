@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavanya Portfolio 3D</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="front.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="active">
+                <i class='bx  bx-home' ></i> 
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <i class='bx  bx-user'></i> 
+                <span class="tooltip">About</span>
+            </li>
+            <li>
+              <i class='bx bx-file'></i> 
+                <span class="tooltip">Resume</span>
+            </li>
+            <li>
+              <i class='bx bx-briefcase'></i>
+                <span class="tooltip">WORKS</span>
+            </li>
+            <li>
+            <i class='bx bx-phone'></i> 
+                <span class="tooltip">Contact</span>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- 3D Container -->
+    <div class="container">
+        <div class="box">
+            <!-- Home Section -->
+            <section class="section home active">
+                <div class="home-info">
+                    <h3>Hello, I'm</h3>
+                    <h1>Lavanya H</h1>
+                    <h3>Frontend Developer</h3>
+                    <p class="desc">
+                        Ambitious B.Tech IT student with a strong foundation in programming and a passion for problem-solving. Eager to apply skills in a professional setting,
+                         delivering innovative solutions with a focus on quality and excellence. Committed to continuous learning and staying ahead of industry trends.
+                    </p>
+                    <div class="btn-sci">
+                        <a href="#" class="btn">Download CV</a>
+                        <div class="sci">
+                            <a href="https://github.com/lavanyaH2005"><i class='bx bxl-github'></i><span class="tooltip">Github</span></a>
+                            <a href="https://www.linkedin.com/in/lavanyah27/"><i class='bx bxl-linkedin'></i><span class="tooltip">LinkedIn</span></a>
+                            <a href="#"><i class='bx bxl-instagram'></i><span class="tooltip">Instagram</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-wrapper">
+                    <div class="img-box home-img">
+                        <img src="Lavanya H.jpeg" alt="Lavanya H">
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="section about">
+                <div class="img-wrapper">
+                    <div class="img-box about-img">
+                        <img src="Lavanya H.jpeg" alt="Lavanya H">
+                    </div>
+                </div>
+                <div class="about-info">
+                    <h2 class="title">About Me</h2>
+                    <h3>Frontend Developer!</h3>
+                    <p class="desc">
+                      I’m a third-year IT student at Velammal Engineering College, deeply passionate about web development, front-end design, and machine learning. With hands-on experience from internships at DLK and IZEON Innovation Technology...
+                      <span id="moreText" class="hidden">
+                        I have honed my skills in crafting dynamic and user-friendly web applications.
+                    
+                        One of my proudest achievements is leading the development of Self-Healing Blockchain Mesh (SHBM), an autonomous vehicle security system designed to revolutionize road safety. This project, which has the potential to bring a major societal impact, earned me 2nd place in a Project Expo.
+                    
+                        I have also actively participated in prestigious competitions like the Smart India Hackathon, multiple symposiums, and hackathons to push my problem-solving skills further. As a member of the Computer Society of India (CSI), I stay engaged with the latest trends in technology and innovation.
+                    
+                        Beyond tech, I love participating in college events like dance and ad competitions, embracing creativity alongside my technical pursuits.
+                      </span>
+                    </p>
+                    <a href="javascript:void(0);" class="btn" id="readMoreBtn" onclick="toggleReadMore()">Read More</a>
+                    
+                </div>
+            </section>
+            <section class = "section resume">
+                <h2 class = "title">Resume</h2>
+                <div class="tab-box">
+                    <div class = "tab-list resume-list active">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class = "tab-list resume-list">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class = "tab-list resume-list">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-grid resume-box experience active">
+                        <div class="tab-item resume-item">
+                            <h4>2024 NOVEMBER-2024 DECEMBER</h4>
+                            <h4>WEB DEVELOPMENT</h4>
+                            <h4>INTERNSHIP</h4>
+                            <p>I recently completed my Web Development Internship at IZEON Innovative Pvt Ltd 🎉. During this incredible journey, I worked with HTML, CSS, JavaScript, and Bootstrap to build a fully functional website </p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2024- JUNE - 2024 JUNE</h4>
+                            <h4>DLK</h4>
+                            <h4>INTERNSHIP</h4>
+                            <p>I recently completed my Web Development Internship at DLK Technologies 🎉. During this amazing experience, I had the opportunity to learn and work with HTML, CSS, and JavaScript</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2025 FEBRUARY</h4>
+                            <h4>CDW</h4>
+                            <h4>STUDENTS STEP UP MEETING</h4>
+                           <p>Had an amazing opportunity to attend a Step Up meeting at CDW Company located in the heart of Ramanujan IT Park . It was a truly inspiring experience to explore a professional work environment and understand how top IT companies operate at scale.</p>   
+                        </div>
+                    </div>
+                        <div class="tab-grid resume-box skills">
+                            <div class="tab-item resume-item">
+                               <!--filll--> 
+                              <i class='bx bxl-html5'></i>
+                                <p>HTML</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-css3'></i>
+                                <p>CSS</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                               <i class='bx bxl-bootstrap'></i> 
+                                <p>Bootstrap</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx  bxl-javascript'  ></i> 
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                          <i class='bx bxs-data'></i>
+                                <p>SQL</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-nodejs'></i>
+                                <p>Node.js</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                              <i class='bx bx-code-alt'></i>
+                                <p>C</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                               <i class='bx bxl-java'></i>
+                                <p>JAVA</p>
+                            </div>
+                           
+                            <div class="tab-item resume-item">
+                              <i class='bx bxl-android'></i> 
+                                <p>Android Studio</p>
+                            </div>
+                            
+                            <div class="tab-item resume-item">
+                           <i class='bx bx-bar-chart'></i> 
+                                <p>Power BI & Tableau</p>
+                            </div>
+                       
+                            <div class="tab-item resume-item">
+                                <i class='bx bxs-spreadsheet'></i>
+                                <p>Excel Sheet</p>
+                            </div>
+
+                        </div>
+        
+                                <div class="tab-grid resume-box education">
+                                    <div class="tab-item resume-item">
+                                        <h4>2022 - current</h4>
+                                        <h4>Velammal Engineering College</h4>
+                                        <h4>BTECH INFORMATION TECHNOLOGY</h4>
+                                        <p>Im currently pursuing 3rd and deeply passionate about web development, front-end design, and an Innovating Intelligent & Interactive Solutions </p>
+                                    </div>
+                                    <div class="tab-item resume-item">
+                                        <h4>Schooling</h4>
+                                        <h4>St Annes Grls Hr&Sec School</h4>
+                                        <h4>Madhavaram</h4>
+                                        <p>i had completed my high classess and secondary classess with the proud of 10th school 2nd and 12th Computer Science dept topper</p>
+                                    </div>
+                                    <div class="tab-item resume-item">
+                                        <h4>2024</h4>
+                                        <h4>Front End Development</h4>
+                                        <h4>Free Code Camp</h4>
+                                        <p> Completed the FreeCodeCamp Responsive Web Design course, which strengthened my skills in building responsive and accessible web pages.</p>
+                                    </div>
+                                    <div class="tab-item resume-item">
+                                        <h4>2024</h4>
+                                        <h4>Web Development</h4>
+                                        <h4>Coursera</h4>
+                                        <p> Completed a Coursera-certified Web Development program, where I learned to build dynamic and user-friendly web interfaces.</p>
+                                    </div>
+                                    <div class="tab-item resume-item">
+                                        <h4>2023</h4>
+                                        <h4>POWER BI</h4>
+                                        <h4>LIVE Class in my college</h4>
+                                        <p>Added new tools to my tech stack by completing courses in Power BI for data visualization and Spring Boot for backend development.</p>
+                                    </div>
+                                    <div class="tab-item resume-item">
+                                        <h4>2025</h4>
+                                        <h4>SPRING BOOT</h4>
+                                        <h4>LIVE Class in my college</h4>
+                                        <p> Gained hands-on experience in building RESTful APIs and managing back-end services with Spring Boot</p>
+                                    </div>
+                                </div>
+
+                </div>
+            </section>
+            <section class="section portfolio">
+                <h2 class="title">
+                    WORKS
+                </h2>
+                <div class="tab-box">
+                <div class="tab-list portfolio-list active">
+                    <h3>My Project</h3>
+                </div>
+                   <div class="tab-list portfolio-list">
+                    <h3>Certifications</h3>
+                   </div>
+                   </div>
+                   <div class="tab-wrapper">
+                    <div class="tab-grid portfolio-box work active">
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="hos.jpg" alt="" width="500">
+                            </div>
+                            <div class="work-info">
+                                <h4>Hospital Management System</h4>
+                                <p>A Hospital Management System is a comprehensive software solution designed to streamline hospital operations, including patient recordsappointments,Checkup
+                                    monitoring and staff management.  
+                                </p>
+                                <div class="tech-used">
+                                  <p>Technologies Used: java, MongoDB</p>  
+                                </div>
+                             <div class="portfolio-icon work-icon">
+                                <a href="#">
+                                <i class='bx bx-arrow-back'></i>
+                                    <span class="tooltip">Preview</span>
+                                </a>
+                                <a href="#">
+                                   <i class='bx bxl-github'></i>
+                                    <span class="tooltip">Gitup repository</span>
+                                </a>
+                             </div>
+                            </div>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="chat.jpg" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>CHAT APPLICATION</h4>
+                                <p>Developed a real-time chat application enabling users to send instant messages, create group chats, and share multimedia content.</p>
+                                <div class="tech-used">
+                                  <p>Technologies Used: Socket.io, Node.js, Express, MongoDB,React</p>  
+                                </div>
+                             <div class="portfolio-icon work-icon">
+                                <a href="#">
+                                <i class='bx bx-left-arrow-alt'></i>
+                                    <span class="tooltip">Preview</span>
+                                </a>
+                                <a href="#">
+                                   <i class='bx bxl-github'></i>
+                                    <span class="tooltip">Gitup repository</span>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="chat.jpg" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>CHATBOT</h4>
+                                <p>Built an intelligent chatbot using Google’s Gemini API with contextual understanding for smarter, more natural
+user interactions.</p>
+                                <div class="tech-used">
+                                  <p>Technologies Used: Python, Gemini API, NLP, Flask</p>  
+                                </div>
+                             <div class="portfolio-icon work-icon">
+                                <a href="#">
+                                <i class='bx bx-left-arrow-alt'></i>
+                                    <span class="tooltip">Preview</span>
+                                </a>
+                                <a href="#">
+                                   <i class='bx bxl-github'></i>
+                                    <span class="tooltip">Gitup repository</span>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src=".jpg" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>Self-Healing Blockchain Mesh (SHBM) - Blockchain Driven CyberSecurity for autonomous vehicles</h4>
+                                <p>Developed a secure autonomous vehicle system with cyberattack detection, self-healing, safe rerouting, and
+blockchain-based data sharing to prevent accidents.</p>
+                                <div class="tech-used">
+                                  <p>Technologies Used: Python, SUMO, OpenCV, Blockchain, LevelDB, Isolation Forest, LSTM, Flask/React.js </p>   
+                                </div>
+                             <div class="portfolio-icon work-icon">
+                                <a href="#">
+                                <i class='bx bx-left-arrow-alt'></i>
+                                    <span class="tooltip">Preview</span>
+                                </a>
+                                <a href="#">
+                                   <i class='bx bxl-github'></i>
+                                    <span class="tooltip">Gitup repository</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                    </div>           
+                  
+                    <div class="tab-grid portfolio-box service">
+                    
+                        <div class="tab-item portfolio-item">
+                            <div class = "portfolio-icon service-icon">
+                                <i class='bx bx-trophy'  style="font-size: 30px"></i> 
+                                <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px"  ></i></a>
+                            </div>
+                            <h4>Intercollege Event</h4>
+                            <p>Won 2nd Prize in the Intercollege Cultural Dance and 1st Prize in Adzap, demonstrating creativity, teamwork,
+and strong communication skills.</p>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class = "portfolio-icon service-icon">
+                                <i class='bx bx-certification' style="font-size: 30px"></i>
+                                <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px"  ></i></a>
+                            </div>
+                            <h4>WEb Development</h4>
+                            <p>Earned Web Development Certification from FreeCodeCamp, skilled in HTML, CSS, and JavaScript.</p>
+                        </div>
+                         <div class="tab-item portfolio-item">
+                            <div class = "portfolio-icon service-icon">
+                                <i class='bx bx-cube' style="font-size: 30px"></i>
+                                <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px"  ></i></a>
+                            </div>
+                            <h4>Exploring Blockchain</h4>
+                            <p>Attended a 3-day workshop titled “Exploring Blockchain: From Concept to Application".</p>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class = "portfolio-icon service-icon">
+                               <i class='bx bx-trophy' style="font-size: 30px"></i>
+                                <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px"  ></i></a>
+                            </div>
+                            <h4>2nd prize</h4>
+                            <p>Secured 2nd Prize for an innovative SHBM mini-project at the Project Expo.</p>
+                        </div>
+                         <div class="tab-item portfolio-item">
+                            <div class = "portfolio-icon service-icon">
+                                <i class='bx bx-certification' style="font-size: 30px" ></i>
+                                <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px" ></i></a>
+                            </div>
+                            <h4>power BI and Tableau</h4>
+                            <p>I completed Power BI and Tableau training and gained strong data visualization and dashboard skills.</p>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class = "portfolio-icon service-icon">
+                                <i class='bx bx-chip' style="font-size: 30px"></i>
+                                <a href="#"><i class='bx bx-left-arrow-alt'  style="font-size: 20px"></i></a>
+                            </div>
+                            <h4>AI</h4>
+                            <p>Certified in AI Generative Models from Coursera, mastering modern AI techniques.</p>
+                        </div>
+                    </div>
+                   </div>
+
+            </section>
+            <section class="section contact active">
+
+                <h2 class="title">Contact</h2>
+                <div class="contact-wrapper">
+                    <form action="#" class="contact-form">
+                        <h3>Let's Work Together!</h3>
+                        <div class="field-box">
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Email Address" required>
+                            <input type="text" placeholder="Phone Number" required>
+                            <input type="text" placeholder="Email subject" required>
+                            <textarea name=""  id="" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="contact-btn">
+                            <button type="submit" class="btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="front.js"></script>
+</body>
+</html>
