@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavanya Portfolio 3D</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="front.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="active">
+                <i class='bx  bx-home' ></i> 
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <i class='bx  bx-user'></i> 
+                <span class="tooltip">About</span>
+            </li>
+            <li>
+              <i class='bx bx-file'></i> 
+                <span class="tooltip">Resume</span>
+            </li>
+            <li>
+              <i class='bx bx-briefcase'></i>
+                <span class="tooltip">WORKS</span>
+            </li>
+            <li>
+            <i class='bx bx-phone'></i> 
+                <span class="tooltip">Contact</span>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- 3D Container -->
+    <div class="container">
+        <div class="box">
+            <!-- Home Section -->
+            <section class="section home active">
+    <div class="home-info">
+        <h3>Hello, I'm</h3>
+        <h1>Lavanya H</h1>
+        <h3>Full Stack Developer | Java Developer</h3>
+        
+        <p class="desc">
+            B.Tech Information Technology graduate with a strong foundation in full stack development, specializing in Java, Spring Boot, React, and modern web technologies. 
+            Experienced in building scalable web applications and RESTful APIs through real-world projects and industry exposure. 
+            Passionate about solving complex problems, delivering efficient solutions, and continuously evolving with emerging technologies.
+        </p>
+
+        <div class="btn-sci">
+            <a href="Lavanya_H.pdf" download class="btn">Download CV</a>
+            <div class="sci">
+                <a href="https://github.com/lavanyaH2005"><i class='bx bxl-github'></i><span class="tooltip">Github</span></a>
+                <a href="https://www.linkedin.com/in/lavanyah27/"><i class='bx bxl-linkedin'></i><span class="tooltip">LinkedIn</span></a>
+                <a href="#"><i class='bx bxl-instagram'></i><span class="tooltip">Instagram</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="img-wrapper">
+        <div class="img-box home-img">
+            <img src="Lavanya H.jpeg" alt="Lavanya H">
+        </div>
+    </div>
+</section>
+
+            <!-- About Section -->
+           <section class="section about">
+    <div class="img-wrapper">
+        <div class="img-box about-img">
+            <img src="Lavanya H.jpeg" alt="Lavanya H">
+        </div>
+    </div>
+    <div class="about-info">
+        <h2 class="title">About Me</h2>
+        <h3>More Than Just a Developer</h3>
+
+        <p class="desc">
+            Beyond building applications, I enjoy taking ownership, collaborating with teams, and continuously learning new technologies. As a Placement Coordinator, I actively contributed to organizing placement activities and guiding peers, strengthening my leadership and communication skills.
+
+            <span id="moreText" class="hidden">
+                I am an active learner who constantly explores emerging trends in full stack development, cloud technologies, and AI. I enjoy solving real-world problems through technology while maintaining a balance between technical growth and creativity.
+
+                Outside of tech, I am deeply passionate about music and dance, which help me stay creative and energetic. I enjoy watching suspense thrillers and horror movies, as they sharpen my attention to detail and analytical thinking.
+
+                I believe in continuous improvement, adaptability, and bringing both technical expertise and a creative mindset to everything I build.
+            </span>
+        </p>
+
+        <a href="javascript:void(0);" class="btn" id="readMoreBtn" onclick="toggleReadMore()">Read More</a>
+    </div>
+</section>
+            <section class = "section resume">
+                <h2 class = "title">Resume</h2>
+                <div class="tab-box">
+                    <div class = "tab-list resume-list active">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class = "tab-list resume-list">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class = "tab-list resume-list">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-grid resume-box experience active">
+                        <div class="tab-item resume-item">
+    <h4>2026 JANUARY - 2026 MARCH</h4>
+    <h4>SOFTWARE TRAINEE ENGINEER</h4>
+    <h4>HASHEDIN BY DELOITTE</h4>
+    <p>
+        I completed my tenure as a Software Trainee Engineer at HashedIn by Deloitte, where I built end-to-end web applications using Java, Spring Boot, and React. I designed scalable RESTful APIs, collaborated in Agile development cycles, and contributed to improving application performance and reliability through structured testing and modular development practices.
+    </p>
+</div>
+                        <div class="tab-item resume-item">
+                            <h4>2024 NOVEMBER-2024 DECEMBER</h4>
+                            <h4>WEB DEVELOPMENT</h4>
+                            <h4>Izeon Innovation Pvt.Ltd (INTERNSHIP)</h4>
+                            <p>I recently completed my Web Development Internship at IZEON Innovative Pvt Ltd. During this incredible journey, I worked with HTML, CSS, JavaScript, and Bootstrap to build a fully functional website </p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2024- JUNE - 2024 JUNE</h4>
+                            <h4>DLK</h4>
+                            <h4>INTERNSHIP</h4>
+                            <p>I recently completed my Web Development Internship at DLK Technologies. During this amazing experience, I had the opportunity to learn and work with HTML, CSS, and JavaScript</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2025 FEBRUARY</h4>
+                            <h4>CDW</h4>
+                            <h4>STUDENTS STEP UP MEETING</h4>
+                           <p>Had an amazing opportunity to attend a Step Up meeting at CDW Company located in the heart of Ramanujan IT Park . It was a truly inspiring experience to explore a professional work environment and understand how top IT companies operate at scale.</p>   
+                        </div>
+                    </div>
+                        <div class="tab-grid resume-box skills">
+                            <div class="tab-item resume-item">
+                               <!--filll--> 
+                              <i class='bx bxl-html5'></i>
+                                <p>HTML</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-css3'></i>
+                                <p>CSS</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                               <i class='bx bxl-bootstrap'></i> 
+                                <p>Bootstrap</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx  bxl-javascript'  ></i> 
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                          <i class='bx bxs-data'></i>
+                                <p>SQL</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-nodejs'></i>
+                                <p>Node.js</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                              <i class='bx bx-code-alt'></i>
+                                <p>C</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                               <i class='bx bxl-java'></i>
+                                <p>JAVA</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                               <i class="bx bxl-spring-boot"></i>
+                                <p>SpringBoot</p>
+                            </div>
+                           <div class="tab-item resume-item">
+                               <i class="bx bxl-typescript" ></i>
+                                <p>TypeScript</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                              <i class="bx bxl-angular"></i>
+                                <p>Angular</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                               <i class="bx bxl-mongodb" ></i>
+                                <p>MongoDb</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                              <i class='bx bxs-data'></i>
+                                <p>MySQL</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                               <i class="bx bxl-postgresql"></i>
+                                <p>PostgresSQL</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                              <i class="bx bxl-git"></i>
+                                <p>GIT</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                               <i class="bx bxl-docker" ></i>
+                                <p>Docker</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                              <i class="bx bx-pen"></i>
+                                <p>Podman</p>
+                            </div> 
+                            
+                            <div class="tab-item resume-item">
+                           <i class='bx bx-bar-chart'></i> 
+                                <p>Power BI & Tableau</p>
+                            </div>
+                       
+                            <div class="tab-item resume-item">
+                                <i class='bx bxs-spreadsheet'></i>
+                                <p>Excel Sheet</p>
+                            </div>
+
+                        </div>
+        
+                                <div class="tab-grid resume-box education">
+
+    <div class="tab-item resume-item">
+        <h4>2022 — 2026</h4>
+        <h4>Velammal Engineering College</h4>
+        <h4>B.Tech — Information Technology</h4>
+        <p>Completed a Bachelor's in Information Technology with a strong focus on full-stack web development, front-end design, blockchain technology, and AI-driven systems. Built real-world projects and actively participated in technical events, hackathons, and project expos.</p>
+    </div>
+
+    <div class="tab-item resume-item">
+        <h4>Higher Secondary — 2022</h4>
+        <h4>St. Anne's Girls Hr. & Sec. School</h4>
+        <h4>Madhavaram, Chennai</h4>
+        <p>Completed both Secondary (10th) and Higher Secondary (12th) education with distinction. Achieved School 2nd Rank in the 10th standard and graduated as the Computer Science Department Topper in the 12th standard, reflecting consistent academic excellence.</p>
+    </div>
+
+                                </div>
+
+                </div>
+            </section>
+            <section class="section portfolio">
+                <h2 class="title">
+                    WORKS
+                </h2>
+                <div class="tab-box">
+                <div class="tab-list portfolio-list active">
+                    <h3>My Project</h3>
+                </div>
+                   <div class="tab-list portfolio-list">
+                    <h3>Awards & Certifications</h3>
+                   </div>
+                   </div>
+                   <div class="tab-wrapper">
+                  <div class="tab-grid portfolio-box work active">
+
+    <!-- 1. WORKSPACE (FULL STACK) -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="workspace.jpg" alt="">
+        </div>
+        <div class="work-info">
+            <h4>Workspace Booking Management System</h4>
+            <p>Developed a full-stack workspace booking platform with dynamic scheduling, real-time availability tracking, and waitlist management to optimize workspace utilization.</p>
+            <div class="tech-used">
+                <p>Technologies Used: Java, Spring Boot, React, TypeScript, MongoDB, REST API</p>  
+            </div>
+            <div class="portfolio-icon work-icon">
+                <!-- <a href="#"><i class='bx bx-left-arrow-alt'></i><span class="tooltip">Preview</span></a> -->
+                <a href="#"><i class='bx bxl-github'></i><span class="tooltip">Github repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. SHBM -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="SHBM.jpg" alt="">
+        </div>
+        <div class="work-info">
+            <h4>Self-Healing Blockchain Mesh (SHBM)</h4>
+            <p>Designed a blockchain-based autonomous vehicle security system with real-time cyberattack detection, self-healing mechanisms, and safe rerouting to prevent accidents.</p>
+            <div class="tech-used">
+                <p>Technologies Used: Python, SUMO, OpenCV, Blockchain, LevelDB, Isolation Forest, LSTM</p>  
+            </div>
+            <div class="portfolio-icon work-icon">
+               <a href="#"><i class='bx bxl-github'></i><span class="tooltip">Github repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. GEN AI (RAG MODEL) -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="rag.jpg" alt="">
+        </div>
+        <div class="work-info">
+            <h4>RAG-based AI Document Assistant</h4>
+            <p>Built a Retrieval-Augmented Generation (RAG) system that analyzes documents and retrieves accurate, context-aware answers using NLP and vector-based search.</p>
+            <div class="tech-used">
+                <p>Technologies Used: Python, LLM, NLP, Vector Database, Flask</p>  
+            </div>
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class='bx bxl-github'></i><span class="tooltip">Github repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. HOSPITAL MANAGEMENT -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="hos.jpg" alt="">
+        </div>
+        <div class="work-info">
+            <h4>Hospital Management System</h4>
+            <p>Developed a system to manage patient records, appointments, and staff operations, improving efficiency and ensuring organized healthcare data management.</p>
+            <div class="tech-used">
+                <p>Technologies Used: Java, MongoDB</p>  
+            </div>
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class='bx bxl-github'></i><span class="tooltip">Github repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. CHAT APPLICATION -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="chat.jpg" alt="">
+        </div>
+        <div class="work-info">
+            <h4>Chat Application</h4>
+            <p>Developed a real-time chat application supporting instant messaging, group chats, and seamless communication using WebSocket-based architecture.</p>
+            <div class="tech-used">
+                <p>Technologies Used: Socket.io, Node.js, Express, MongoDB, React</p>  
+            </div>
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class='bx bxl-github'></i><span class="tooltip">Github repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6. 3D PORTFOLIO -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="3D_portfolio.jpg" alt="">
+        </div>
+        <div class="work-info">
+            <h4>3D Interactive Portfolio</h4>
+            <p>Designed and developed a visually engaging 3D portfolio with smooth animations and interactive UI elements to showcase projects dynamically.</p>
+            <div class="tech-used">
+                <p>Technologies Used: HTML, CSS, JavaScript, CSS Animations</p>  
+            </div>
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class='bx bxl-github'></i><span class="tooltip">Github repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7. FRONTEND PROJECT -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="tourist.jpg" alt="">
+        </div>
+        <div class="work-info">
+            <h4>Tourist Website (Frontend Project)</h4>
+            <p>Created a responsive tourism website with attractive UI design, showcasing destinations and improving user experience across devices.</p>
+            <div class="tech-used">
+                <p>Technologies Used: HTML, CSS, Bootstrap</p>  
+            </div>
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class='bx bxl-github'></i><span class="tooltip">Github repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 8. NODEJS PROJECT -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="simple_js.jpg" alt="">
+        </div>
+        <div class="work-info">
+            <h4>Simple Node.js Application</h4>
+            <p>Built a backend application using Node.js and Express to handle server-side logic and API routing with efficient request handling.</p>
+            <div class="tech-used">
+                <p>Technologies Used: Node.js, Express</p>  
+            </div>
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class='bx bxl-github'></i><span class="tooltip">Github repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 9. ANDROID CALCULATOR -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="calculate.jpg" alt="">
+        </div>
+        <div class="work-info">
+            <h4>Android Calculator App</h4>
+            <p>Developed a simple calculator application for Android with a user-friendly interface and basic arithmetic functionalities.</p>
+            <div class="tech-used">
+                <p>Technologies Used: Java, Android Studio</p>  
+            </div>
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class='bx bxl-github'></i><span class="tooltip">Github repository</span></a>
+            </div>
+        </div>
+    </div>
+
+</div>         
+                  
+<div class="tab-grid portfolio-box service">
+
+    <!-- trophy AWARDS & WINNINGS -->
+      <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-trophy' style="font-size: 30px"></i>
+            <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>Star Placement Award</h4>
+        <p>Honored with the Star Placement Award for outstanding performance and consistency in securing placement opportunities, reflecting strong technical and professional capabilities.</p>
+    </div>
+
+     <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-trophy' style="font-size: 30px"></i>
+            <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>2nd Prize — Project Expo</h4>
+        <p>Secured 2nd Prize for an innovative SHBM mini-project at the Project Expo.</p>
+    </div>
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-trophy' style="font-size: 30px"></i>
+            <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>Adzap Intercollege Event</h4>
+    <p>Secured 1st Prize, demonstrating creativity, marketing insight, and effective communication through innovative advertising strategies.</p></div>
+
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-trophy' style="font-size: 30px"></i>
+            <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>Intercollege Event</h4>
+        <p>Won 2nd Prize in the Intercollege Cultural Dance and 1st Prize in Adzap, demonstrating creativity, teamwork, and strong communication skills.</p>
+    </div>
+
+
+    <!-- AWS -->
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bxl-aws' style="font-size: 30px"></i>
+            <a href="https://drive.google.com/file/d/1RQft5ku9iyq6mPROed9cyvFMQnwUOjaA/view?usp=drive_link"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>Prompt Engineering — AWS</h4>
+        <p>Certified in Prompt Engineering from AWS, mastering techniques to effectively design, optimize, and evaluate prompts for large language models and generative AI systems.</p>
+    </div>
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bxl-aws' style="font-size: 30px"></i>
+            <a href="https://drive.google.com/file/d/1b-JLfvIQPEbaUNZGyqkQmUAHgrFSK-Y2/view?usp=drive_link"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>AWS Cloud Computing — Beginner to Industry Ready</h4>
+        <p>Completed AWS Cloud Computing: Beginner to Industry Ready from Udemy, building solid hands-on skills in cloud architecture, services, and deployment.</p>
+    </div>
+
+    <!-- CISCO -->
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bxl-javascript' style="font-size: 30px"></i>
+            <a href="https://drive.google.com/file/d/1MQrqVJy-tqXGU5MyFXU_ntW9zHnbAdMp/view?usp=drive_link"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>JavaScript Essentials — Cisco</h4>
+        <p>Earned JavaScript Essentials certification from Cisco, covering core JS concepts including DOM manipulation, functions, events, and modern ES6+ features.</p>
+    </div>
+
+    <!-- LIVE CLASSES / WORKSHOPS -->
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-cube' style="font-size: 30px"></i>
+            <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>Exploring Blockchain — Live Workshop</h4>
+        <p>Attended a 3-day live workshop titled "Exploring Blockchain: From Concept to Application", gaining real-world insights into blockchain architecture and use cases.</p>
+    </div>
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-bar-chart-alt-2' style="font-size: 30px"></i>
+            <a href="#"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>Power BI & Tableau — Training</h4>
+        <p>Completed Power BI and Tableau training, gaining strong data visualization and interactive dashboard-building skills.</p>
+    </div>
+
+    <!-- UDEMY -->
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-globe' style="font-size: 30px"></i>
+            <a href="https://drive.google.com/file/d/1UiUpXIYKhjSNifvF03WNTM3dt3czPUl4/view?usp=drive_link"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>Complete 2024 Web Development Bootcamp — Udemy</h4>
+        <p>Completed The Complete 2024 Web Development Bootcamp from Udemy, covering full-stack development including HTML, CSS, JavaScript, Node.js, React, and databases.</p>
+    </div>
+
+    <!-- COURSERA -->
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-chip' style="font-size: 30px"></i>
+            <a href="https://drive.google.com/file/d/1i8c9mn3HohTsG5F44dVKGXpU1qil8f5N/view?usp=drive_link"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>AI Generative Models — Coursera</h4>
+        <p>Certified in AI Generative Models from Coursera, mastering modern AI techniques and generative model architectures.</p>
+    </div>
+
+    <!-- GREAT LEARNING -->
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bxl-git' style="font-size: 30px"></i>
+            <a href="https://drive.google.com/file/d/10v1BugbGhEvNQ0kaM1zYv3Tuc1yUv6tf/view?usp=drive_link"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>Git Tutorial — Great Learning</h4>
+        <p>Completed Git Tutorial certification from Great Learning, gaining hands-on expertise in version control, branching, merging, and collaborative workflows.</p>
+    </div>
+
+    <!-- FREECODECAMP -->
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-certification' style="font-size: 30px"></i>
+            <a href="https://drive.google.com/file/d/1BuP5Tn61w1iRpSg_YeYYwWlYkNMwgSt_/view?usp=drive_link"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>Web Development — FreeCodeCamp</h4>
+        <p>Earned Web Development Certification from FreeCodeCamp, skilled in HTML, CSS, and JavaScript fundamentals and responsive design.</p>
+    </div>
+
+    <!-- HACKERRANK -->
+
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bxl-python' style="font-size: 30px"></i>
+            <a href="https://drive.google.com/file/d/1u1kMtjO-M9QiZ9qQFBgLYCUFxM1EkxBI/view?usp=drive_link"><i class='bx bx-left-arrow-alt' style="font-size: 20px"></i></a>
+        </div>
+        <h4>Python — HackerRank</h4>
+        <p>Earned Python Certificate from HackerRank, demonstrating strong proficiency in Python programming, problem-solving, and coding challenges.</p>
+    </div>
+
+</div>
+                   </div>
+
+            </section>
+            <section class="section contact active">
+    <h2 class="title">Contact</h2>
+    <div class="contact-wrapper">
+        <form id="contact-form" class="contact-form">
+            <h3>Let's Work Together!</h3>
+            <div class="field-box">
+                <input type="text" id="from_name" placeholder="Full Name" required>
+                <input type="email" id="from_email" placeholder="Email Address" required>
+                <input type="text" id="phone" placeholder="Phone Number" required>
+                <input type="text" id="subject" placeholder="Email Subject" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="contact-btn">
+                <button type="submit" class="btn" id="send-btn">Send Message</button>
+            </div>
+            <!-- Status message -->
+            <p id="form-status" style="margin-top: 10px; font-size: 14px; text-align: center;"></p>
+        </form>
+    </div>
+</section>
+        </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="front.js"></script>
+</body>
+</html>
