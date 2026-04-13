@@ -68,7 +68,7 @@ setTimeout(() => {
 }, 1500);
 
 // ─── EMAILJS SETUP ─────────────────────────────────────────────
-emailjs.init("X_qa6oPd6wvpph3-B"); // 🔑 Replace with your EmailJS Public Key
+emailjs.init(CONFIG.PUBLIC_KEY); // 🔑 Replace with your EmailJS Public Key
 
 const contactForm = document.getElementById('contact-form');
 const sendBtn = document.getElementById('send-btn');
@@ -91,7 +91,7 @@ contactForm.addEventListener('submit', function (e) {
         message:    document.getElementById('message').value,
     };
 
-    emailjs.send("service_tu1u6id", "template_i9u0479", templateParams)
+   emailjs.send(CONFIG.SERVICE_ID, CONFIG.TEMPLATE_ID, templateParams)
         .then(() => {
             formStatus.style.color = '#4CAF50';
             formStatus.textContent = 'Message sent successfully! I\'ll get back to you soon.';
